@@ -79,7 +79,7 @@
                                                 <td><?php  echo $row['nombre']?></td>
                                                    
                                                 <td><a href="ciudadActualizar.php?id=<?php echo $row['idCiudad'] ?>" class="btn btn-info">Editar</a></td>
-                                                <td><a href="ciudadDelete.php?id=<?php echo $row['idCiudad'] ?>" class="btn btn-danger">Eliminar</a></td>                                        
+                                                <!--<td><a href="ciudadDelete.php?id=<?php echo $row['idCiudad'] ?>" class="btn btn-danger">Eliminar</a></td>-->                                        
                                             </tr>
                                         <?php 
                                             }
